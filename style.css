@@ -1,15 +1,18 @@
 body { 
     background-color: #f5f2ec;
     front-family: Ariel;
+    margin: 30px;
 }
 h1 { 
   color: #292824;
   text-align: center;
+  font-size: 35px; 
 }
 h2 {
   color: #a99b88;
+  font-size: 24px;
 }
 p {
   color: #444444;
-  front-siz: 18px;
-  
+  font-siz: 18px;
+}  
