@@ -33,3 +33,23 @@ p {
   font-siz: 18px;
   line-height: 1.6;
 }  
+.apresentacao {
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px
+}
+.apresentacao h2 { 
+    border: none;
+    font-siz: 28px;
+}
+.apresentacao p {
+    font-siz: 18px;
+    margin-bottom: 30px;
+}
+.botao {
+    background-color: #292824;
+    color: white:
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
