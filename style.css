@@ -78,6 +78,39 @@ p {
     color: #666666;
     font-size: 16px;
 }
+/* Ajustes para celulares */
+@media (max-width: 600px) {
 
+    body {
+        margin: 15px;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .apresentacao {
+        padding: 20px;
+    }
+
+    .apresentacao h1 {
+        font-size: 32px;
+    }
+
+    .apresentacao h2 {
+        font-size: 22px;
+    }
+
+    .servico {
+        width: 100%;
+    }
+
+}
     
     
