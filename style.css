@@ -53,3 +53,16 @@ p {
     text-decoration: none;
     border-radius: 5px;
 }
+/* Organização dos cartões de serviços */
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+/* Aparência de cada cartão */
+.servicos {
+    backgroud-color: white;
+    padding: 25px;
+    border-radiu: 8px;
+    
