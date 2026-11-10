@@ -8,7 +8,7 @@ nav {
     background-color: #292824;
     padding: 20px;
     text-align: center;
-    border-radius: 8px:
+    border-radius: 8px;
 }
 nav a { 
     color: white;
@@ -36,7 +36,7 @@ p {
 .apresentacao {
     text-align: center;
     padding: 50px;
-    margin-top: 40px
+    margin-top: 40px;
 }
 .apresentacao h2 { 
     border: none;
@@ -48,7 +48,7 @@ p {
 }
 .botao {
     background-color: #292824;
-    color: white:
+    color: white;
     padding: 15px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -71,12 +71,12 @@ p {
 /* Título de cada serviço */
 .servico h3 {
     color: #292824;
-    font-size: 20px;
+    font-siz: 20px;
 }
 /* Descrição de cada serviço */
 .servico p {
     color: #666666;
-    font-size: 16px;
+    font-siz: 16px;
 }
 /* Ajustes para celulares */
 @media (max-width: 600px) {
@@ -92,7 +92,7 @@ p {
     nav a {
         display: inline-block;
         margin: 8px;
-        font-size: 14px;
+        font-siz: 14px;
     }
 
     .apresentacao {
@@ -100,11 +100,11 @@ p {
     }
 
     .apresentacao h1 {
-        font-size: 32px;
+        font-siz: 32px;
     }
 
     .apresentacao h2 {
-        font-size: 22px;
+        font-siz: 22px;
     }
 
     .servico {
