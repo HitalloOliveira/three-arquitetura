@@ -218,3 +218,45 @@ p {
     font-size: 17px;
     line-height: 1.8;
 }
+/* Melhorias da apresentação inicial */
+.apresentacao {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 60px 30px;
+    margin-top: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.subtitulo {
+    color: #a99b88;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.apresentacao h1 {
+    font-size: clamp(36px, 5vw, 56px);
+    margin-top: 10px;
+}
+
+.apresentacao h2 {
+    font-size: 26px;
+    border: none;
+    margin-top: 20px;
+}
+
+.apresentacao p {
+    max-width: 650px;
+    margin: 20px auto 30px;
+}
+
+.botao {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #a99b88;
+    transform: translateY(-3px);
+}
