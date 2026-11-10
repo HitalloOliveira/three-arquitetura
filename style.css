@@ -79,7 +79,8 @@ p {
     font-siz: 16px;
 }
 /* Ajustes para celulares */
-@media (max-width: 600px) {
+@media (max-width: 600px); 
+{
 
     body {
         margin: 15px;
