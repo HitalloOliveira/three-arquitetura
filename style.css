@@ -14,7 +14,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 15px;
-    font-siz: 16px;
+    font-size: 16px;
 }
 h1 { 
   color: #292824;
@@ -64,8 +64,8 @@ p {
 .servico {
     backgroud-color: white;
     padding: 25px;
-    border-radiu: 8px;
-    width:250px;
+    border-radius: 8px;
+    width: 250px;
     box-shadow: 0 2px 8px rgba (0, 0, 0, 0.08);
 }
 /* Título de cada serviço */
@@ -79,8 +79,7 @@ p {
     font-siz: 16px;
 }
 /* Ajustes para celulares */
-@media (max-width: 600px); 
-{
+@media (max-width: 600px) {
 
     body {
         margin: 15px;
