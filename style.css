@@ -62,11 +62,20 @@ p {
 }
 /* Aparência de cada cartão */
 .servico {
-    backgroud-color: white;
-    padding: 25px;
-    border-radius: 8px;
+    .servico {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
     width: 250px;
-    box-shadow: 0 2px 8px rgba (0, 0, 0, 0.08);
+    border: 1px solid #e8e1d7;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+}
+
+.servico:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #a99b88;
 }
 /* Título de cada serviço */
 .servico h3 {
