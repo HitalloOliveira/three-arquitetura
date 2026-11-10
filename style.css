@@ -135,10 +135,18 @@ p {
 /* Cartão de cada projeto */
 .projeto {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
     width: 300px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e8e1d7;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #a99b88;
 }
 
 /* Imagens dos projetos */
