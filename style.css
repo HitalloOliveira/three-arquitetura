@@ -127,8 +127,9 @@ p {
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 25px;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 /* Cartão de cada projeto */
@@ -151,9 +152,13 @@ p {
 /* Imagens dos projetos */
 .projeto img {
     width: 100%;
-    height: 240px;
+    height: 230px;
     object-fit: cover;
     display: block;
+    display: 0.4s ease;
+}
+.projeto img {
+    transform: scale(1.04);
 }
 
 /* Nome dos projetos */
