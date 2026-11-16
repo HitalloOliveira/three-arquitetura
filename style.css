@@ -159,8 +159,10 @@ p {
 /* Nome dos projetos */
 .projeto h3 {
     color: #292824;
-    font-size: 18px;
-    padding: 0 15px;
+    font-size: 19px;
+    padding: 5px 18px;
+    margin-bottom: 18px;
+    font-weight: 600;
 }
 /* Cartões de contato */
 .contatos {
