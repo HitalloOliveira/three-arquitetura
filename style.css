@@ -290,3 +290,15 @@ p {
     margin-top: 40px;
     text-align: center;
 }
+
+#orcamento input,
+#orcamento select,
+#orcamento textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: 1px solid #e8e1d7;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
