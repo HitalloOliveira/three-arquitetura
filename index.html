@@ -148,7 +148,8 @@
         </select>
 
         <label>Descreva seu projeto:</label>
-        <textarea placeholder="Conte um pouco sobre sua ideia" maxlength="500" required></textarea>
+        <textarea id="descricao" placeholder"Conte um pouco sobre sua ideia" maxlength="500" required></textarea>
+        <small id="contador">0 / 5oo caracteres</small>
 
         <button type="submit">Enviar solicitação</button>
     </form>
@@ -157,6 +158,13 @@
         <p> 2026 Three Arquitetura. Todos os
     direitos reservados.</p>
     </footer>
-    
+    <script>
+    const descricao = document.getElementById("descricao");
+    const contador = document.getElementById("contador");
+
+    descricao.addEventListener("input", function() {
+        contador.textContent = descricao.value.length + " / 500 caracteres";
+    });
+</script>
 </body>
 </html>
