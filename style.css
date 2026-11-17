@@ -301,4 +301,18 @@ p {
     border-radius: 6px;
     box-sizing: border-box;
     font-size: 15px;
+}
+#orcamento button {
+    background-color: #292824;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#orcamento button:hover {
+    background-color: #a99b88;
+}
     
