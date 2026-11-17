@@ -153,6 +153,28 @@
 
         <button type="submit">Enviar solicitação</button>
     </form>
+    <section id="perguntas">
+    <h2>Perguntas Frequentes</h2>
+
+    <p>Confira algumas dúvidas comuns sobre nossos serviços.</p>
+        <details>
+    <summary>Quais serviços a Three Arquitetura oferece?</summary>
+    <p>Oferecemos projetos residenciais e comerciais, design de interiores, reformas e consultoria.</p>
+</details>
+        <details>
+    <summary>Como posso solicitar um orçamento?</summary>
+    <p>Você pode preencher o formulário de solicitação de orçamento disponível em nosso site ou entrar em contato diretamente pelo WhatsApp.</p>
+</details>
+        <details>
+    <summary>A Three Arquitetura realiza projetos residenciais e comerciais?</summary>
+    <p>Sim! Desenvolvemos projetos para ambientes residenciais e comerciais, de acordo com as necessidades de cada cliente.</p>
+</details>
+        <details>
+    <summary>Como posso entrar em contato com a equipe?</summary>
+    <p>Você pode entrar em contato pelos botões de WhatsApp disponíveis no site ou pelo nosso Instagram @three.arquitetura_.</p>
+</details>
+</section>
+    
 </section>    
     <footer>
         <p> 2026 Three Arquitetura. Todos os
@@ -166,5 +188,32 @@
         contador.textContent = descricao.value.length + " / 500 caracteres";
     });
 </script>
+    #perguntas {
+    background-color: white;
+    padding: 35px;
+    border-radius: 12px;
+    margin-top: 40px;
+    text-align: center;
+}
+    #perguntas details {
+    background-color: #f5f2ec;
+    padding: 18px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 700px;
+    text-align: left;
+}
+
+#perguntas summary {
+    color: #292824;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#perguntas details p {
+    color: #444444;
+    margin-top: 12px;
+}
 </body>
 </html>
+
