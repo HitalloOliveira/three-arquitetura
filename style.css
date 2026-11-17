@@ -283,3 +283,10 @@ p {
     background-color: #a99b88;
     transform: translateY(-3px);
 }
+#orcamento {
+    background-color: white;
+    padding: 35px;
+    border-raudius: 12px;
+    margin-top: 40px;
+    text-align: center;
+}
