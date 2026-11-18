@@ -343,8 +343,8 @@ p {
     margin-top: 12px;
 }
 .logo {
-    text-align: center;
-    margin: 10px auto 20px;
+    text-align: left;
+    margin: 10px 0 20px 20px;
 }
 .logo img {
     width: 350px;
