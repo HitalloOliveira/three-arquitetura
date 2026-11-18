@@ -367,7 +367,8 @@ p {
 }
 
 .menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 70px;
     right: 20px;
@@ -375,13 +376,19 @@ p {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    flex-direction: column;
     gap: 15px;
     z-index: 1000;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 
 .menu.aberto {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .menu a {
