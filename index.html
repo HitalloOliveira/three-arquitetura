@@ -186,19 +186,15 @@
         <p> 2026 Three Arquitetura. Todos os
     direitos reservados.</p>
     </footer>
-    <script>
+<script>
     const descricao = document.getElementById("descricao");
     const contador = document.getElementById("contador");
 
     descricao.addEventListener("input", function() {
         contador.textContent = descricao.value.length + " / 500 caracteres";
     });
-        <script>
-    const menu = document.getElementById("menu");
 
-    botaoMenu.addEventListener("click", function() {
-        menu.classList.toggle("aberto");
-    });
+    const menu = document.getElementById("menu");
 
     const linksMenu = menu.querySelectorAll("a");
 
