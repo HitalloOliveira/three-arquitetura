@@ -8,7 +8,7 @@
 <div class="logo">
     <img src="Logo_Three_Arquitetura.png" alt="Logo da Three Arquitetura">
 </div>
-    <button class="menu-toggle" id="menu-toggle">
+   <button class="menu-toggle" id="menu-toggle" onclick="document.getElementById('menu').classList.toggle('aberto')">
     ☰
 </button>
 
@@ -194,7 +194,6 @@
         contador.textContent = descricao.value.length + " / 500 caracteres";
     });
         <script>
-    const botaoMenu = document.getElementById("menu-toggle");
     const menu = document.getElementById("menu");
 
     botaoMenu.addEventListener("click", function() {
