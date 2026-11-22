@@ -222,7 +222,8 @@ const totalProjetos = galeria.children.length;
 
 function atualizarCarrossel() {
     galeria.style.transform =
-        translateX(-$DIL0%);
+        "translateX(-" + (indiceAtual * 100) + "%)";
+}
 }
 anterior.addEventListener("click", function() {
     indiceAtual--;
