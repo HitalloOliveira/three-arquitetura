@@ -213,6 +213,47 @@
             menu.classList.remove("aberto");
         });
     });
+    const galeria = document.getElementById("galeria");
+const anterior = document.getElementById("anterior");
+const proximo = document.getElementById("proximo");
+
+let indiceAtual = 0;
+const totalProjetos = galeria.children.length;
+
+function atualizarCarrossel() {
+    galeria.style.transform =
+        translateX(-${indiceAtual * 100}%);
+}
+
+anterior.addEventListener("click", function() {
+    indiceAtual--;
+
+    if (indiceAtual < 0) {
+        indiceAtual = totalProjetos - 1;
+    }
+
+    atualizarCarrossel();
+});
+
+proximo.addEventListener("click", function() {
+    indiceAtual++;
+
+    if (indiceAtual >= totalProjetos) {
+        indiceAtual = 0;
+    }
+
+    atualizarCarrossel();
+});
+
+setInterval(function() {
+    indiceAtual++;
+
+    if (indiceAtual >= totalProjetos) {
+        indiceAtual = 0;
+    }
+
+    atualizarCarrossel();
+}, 4000);
 </script>
 </body>
 </html>
