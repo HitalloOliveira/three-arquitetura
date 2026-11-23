@@ -222,6 +222,21 @@
     direitos reservados.</p>
     </footer>
 <script>
+    const fotosComerciais = document.querySelectorAll(".fotos-comerciais img");
+const fotoAmpliada = document.getElementById("foto-ampliada");
+const imagemGrande = document.getElementById("imagem-grande");
+const fecharFoto = document.getElementById("fechar-foto");
+
+fotosComerciais.forEach(function(foto) {
+    foto.addEventListener("click", function() {
+        imagemGrande.src = foto.src;
+        fotoAmpliada.classList.add("aberta");
+    });
+});
+
+fecharFoto.addEventListener("click", function() {
+    fotoAmpliada.classList.remove("aberta");
+});
     const projetoComercial = document.getElementById("projeto-comercial");
 const galeriaComercial = document.getElementById("galeria-comercial");
 const fecharGaleria = document.getElementById("fechar-galeria");
