@@ -100,8 +100,8 @@
                 <h3>Projeto residencial</h3>
             </div>
 
-            <div class="projeto">
-                <img src="https://placehold.co/600x400" alt="Arquitetura de interiores">
+            <div class="projeto" id="projeto-interiores">
+                <img src="interiores (1).png" alt="Projeto de interiores da Three Arquitetura">
                 <h3>Arquitetura de interiores</h3>
             </div>
 
@@ -157,6 +157,19 @@
         <img src="Residencia (8).png" alt="Projeto residencial 8">
         <img src="Residencia (9).png" alt="Projeto residencial 9">
     </div>
+        <div id="galeria-interiores" class="galeria-comercial">
+
+    <button id="fechar-galeria-interiores" class="fechar-galeria">X</button>
+
+    <h2>Projeto de Interiores</h2>
+
+    <div class="fotos-comerciais">
+        <img src="interiores (1).png" alt="Projeto de interiores 1">
+        <img src="interiores (2).png" alt="Projeto de interiores 2">
+        <img src="interiores (3).png" alt="Projeto de interiores 3">
+    </div>
+
+</div>
 
 </div>
 
@@ -345,6 +358,21 @@ projetoResidencial.addEventListener("click", function() {
 
 fecharGaleriaResidencial.addEventListener("click", function() {
     galeriaResidencial.classList.remove("aberta");
+});
+    const projetoInteriores = document.getElementById("projeto-interiores");
+const galeriaInteriores = document.getElementById("galeria-interiores");
+const fecharGaleriaInteriores = document.getElementById("fechar-galeria-interiores");
+
+projetoInteriores.addEventListener("click", function() {
+    galeriaInteriores.classList.add("aberta");
+
+    galeriaInteriores.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+fecharGaleriaInteriores.addEventListener("click", function() {
+    galeriaInteriores.classList.remove("aberta");
 });
 </script>
 </body>
