@@ -95,8 +95,8 @@
     <div class="janela-carrossel">
         <div class="galeria" id="galeria">
 
-            <div class="projeto">
-                <img src="1.png" alt="Projeto comercial da Three Arquitetura">
+            <div class="projeto" id="projeto-residencial">
+                <img src="residencia (1).png" alt="Projeto residencial da Three Arquitetura">
                 <h3>Projeto residencial</h3>
             </div>
 
@@ -140,6 +140,25 @@
         <img src="11.png" alt="Projeto comercial 11">
         <img src="12.png" alt="Projeto comercial 12">
     </div>
+    <div id="galeria-residencial" class="galeria-comercial">
+
+    <button id="fechar-galeria-residencial" class="fechar-galeria">X</button>
+
+    <h2>Projeto Residencial</h2>
+
+    <div class="fotos-comerciais">
+        <img src="residencia (1).png" alt="Projeto residencial 1">
+        <img src="residencia (2).png" alt="Projeto residencial 2">
+        <img src="residencia (3).png" alt="Projeto residencial 3">
+        <img src="residencia (4).png" alt="Projeto residencial 4">
+        <img src="residencia (5).png" alt="Projeto residencial 5">
+        <img src="residencia (6).png" alt="Projeto residencial 6">
+        <img src="residencia (7).png" alt="Projeto residencial 7">
+        <img src="residencia (8).png" alt="Projeto residencial 8">
+        <img src="residencia (9).png" alt="Projeto residencial 9">
+    </div>
+
+</div>
 
 </div>
    <h2 id="contato">Entre em contato</h2>
@@ -312,6 +331,21 @@ setInterval(function() {
 
     atualizarCarrossel();
 }, 4000);
+    const projetoResidencial = document.getElementById("projeto-residencial");
+const galeriaResidencial = document.getElementById("galeria-residencial");
+const fecharGaleriaResidencial = document.getElementById("fechar-galeria-residencial");
+
+projetoResidencial.addEventListener("click", function() {
+    galeriaResidencial.classList.add("aberta");
+
+    galeriaResidencial.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+fecharGaleriaResidencial.addEventListener("click", function() {
+    galeriaResidencial.classList.remove("aberta");
+});
 </script>
 </body>
 </html>
