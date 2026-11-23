@@ -218,6 +218,21 @@
     direitos reservados.</p>
     </footer>
 <script>
+    const projetoComercial = document.getElementById("projeto-comercial");
+const galeriaComercial = document.getElementById("galeria-comercial");
+const fecharGaleria = document.getElementById("fechar-galeria");
+
+projetoComercial.addEventListener("click", function() {
+    galeriaComercial.classList.add("aberta");
+
+    galeriaComercial.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+fecharGaleria.addEventListener("click", function() {
+    galeriaComercial.classList.remove("aberta");
+});
     const descricao = document.getElementById("descricao");
     const contador = document.getElementById("contador");
 
