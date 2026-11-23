@@ -438,3 +438,47 @@ p {
 .seta:hover {
     background-color: #a99b88;
 }
+/* Galeria do projeto comercial */
+
+.galeria-comercial {
+    display: none;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px auto;
+}
+
+.galeria-comercial.aberta {
+    display: block;
+}
+
+.fotos-comerciais {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.fotos-comerciais img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.fechar-galeria {
+    display: block;
+    margin-left: auto;
+    background-color: #292824;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .fotos-comerciais {
+        grid-template-columns: 1fr;
+    }
+}
